@@ -9,6 +9,9 @@ struct TrouserBombView: View {
         }, label: {
             Text("Random Ripper")
         })
+        .onShake {
+            sandbox.fart()
+        }
     }
 }
 

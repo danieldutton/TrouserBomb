@@ -27,6 +27,7 @@
 		A5A8760C266BF96300D23585 /* TrouserBombView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A875DF266BF75300D23585 /* TrouserBombView.swift */; };
 		A5A8760F266BFAC000D23585 /* Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8760E266BFAC000D23585 /* Sandbox.swift */; };
 		A5A87617266C002100D23585 /* TrouserBombUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A87616266C002100D23585 /* TrouserBombUnitTests.swift */; };
+		A5A87620266C17EC00D23585 /* ShakeDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8761F266C17EC00D23585 /* ShakeDetector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		A5A87614266C002100D23585 /* TrouserBombUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrouserBombUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A87616266C002100D23585 /* TrouserBombUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrouserBombUnitTests.swift; sourceTree = "<group>"; };
 		A5A87618266C002100D23585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A8761F266C17EC00D23585 /* ShakeDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				A5A8760E266BFAC000D23585 /* Sandbox.swift */,
+				A5A8761F266C17EC00D23585 /* ShakeDetector.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A87620266C17EC00D23585 /* ShakeDetector.swift in Sources */,
 				A5A875DE266BF75300D23585 /* TrouserBombApp.swift in Sources */,
 				A5A8760F266BFAC000D23585 /* Sandbox.swift in Sources */,
 				A5A8760C266BF96300D23585 /* TrouserBombView.swift in Sources */,
