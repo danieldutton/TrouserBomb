@@ -4,14 +4,21 @@ import SwiftUI
 struct TrouserBombView: View {
     var sandbox = SandBox()
     var body: some View {
-        Button(action: {
-            sandbox.fart()
-        }, label: {
-            Text("Random Ripper")
-        })
-        .onShake {
-            sandbox.fart()
-        }
+        VStack {
+            Spacer()
+            Button(action: {
+                sandbox.fart()
+            }, label: {
+                Text("RANDOM RIPPER")
+                    .foregroundColor(.white)
+            })
+            .frame(maxWidth: .infinity)
+            .padding()
+            .onShake {
+                sandbox.fart()
+            }
+            .background(Color("Blue_Random_Ripper"))
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 

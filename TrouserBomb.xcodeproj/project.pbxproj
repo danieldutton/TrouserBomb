@@ -108,8 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				A5A8760B266BF91B00D23585 /* View */,
-				A5A875EC266BF7CE00D23585 /* AudioResources */,
 				A5A8760D266BFAA000D23585 /* Services */,
+				A5A875EC266BF7CE00D23585 /* AudioResources */,
 				A5A875DD266BF75300D23585 /* TrouserBombApp.swift */,
 				A5A875E1266BF75500D23585 /* Assets.xcassets */,
 				A5A875E6266BF75500D23585 /* Info.plist */,
