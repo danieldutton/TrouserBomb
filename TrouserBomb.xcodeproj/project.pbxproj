@@ -26,7 +26,18 @@
 		A5A8760A266BF80B00D23585 /* fart_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A87601266BF80B00D23585 /* fart_5.mp3 */; };
 		A5A8760C266BF96300D23585 /* TrouserBombView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A875DF266BF75300D23585 /* TrouserBombView.swift */; };
 		A5A8760F266BFAC000D23585 /* Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8760E266BFAC000D23585 /* Sandbox.swift */; };
+		A5A87617266C002100D23585 /* TrouserBombUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A87616266C002100D23585 /* TrouserBombUnitTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5A87619266C002100D23585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A875D2266BF75300D23585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A875D9266BF75300D23585;
+			remoteInfo = TrouserBomb;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A5A875DA266BF75300D23585 /* TrouserBomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrouserBomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,10 +61,20 @@
 		A5A87600266BF80B00D23585 /* fart_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_1.mp3; sourceTree = "<group>"; };
 		A5A87601266BF80B00D23585 /* fart_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_5.mp3; sourceTree = "<group>"; };
 		A5A8760E266BFAC000D23585 /* Sandbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandbox.swift; sourceTree = "<group>"; };
+		A5A87614266C002100D23585 /* TrouserBombUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrouserBombUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A87616266C002100D23585 /* TrouserBombUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrouserBombUnitTests.swift; sourceTree = "<group>"; };
+		A5A87618266C002100D23585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A5A875D7266BF75300D23585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A87611266C002100D23585 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				A5A875DC266BF75300D23585 /* TrouserBomb */,
+				A5A87615266C002100D23585 /* TrouserBombUnitTests */,
 				A5A875DB266BF75300D23585 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				A5A875DA266BF75300D23585 /* TrouserBomb.app */,
+				A5A87614266C002100D23585 /* TrouserBombUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +177,15 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		A5A87615266C002100D23585 /* TrouserBombUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5A87616266C002100D23585 /* TrouserBombUnitTests.swift */,
+				A5A87618266C002100D23585 /* Info.plist */,
+			);
+			path = TrouserBombUnitTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,6 +206,24 @@
 			productReference = A5A875DA266BF75300D23585 /* TrouserBomb.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A5A87613266C002100D23585 /* TrouserBombUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A8761B266C002100D23585 /* Build configuration list for PBXNativeTarget "TrouserBombUnitTests" */;
+			buildPhases = (
+				A5A87610266C002100D23585 /* Sources */,
+				A5A87611266C002100D23585 /* Frameworks */,
+				A5A87612266C002100D23585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A8761A266C002100D23585 /* PBXTargetDependency */,
+			);
+			name = TrouserBombUnitTests;
+			productName = TrouserBombUnitTests;
+			productReference = A5A87614266C002100D23585 /* TrouserBombUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -185,6 +235,10 @@
 				TargetAttributes = {
 					A5A875D9266BF75300D23585 = {
 						CreatedOnToolsVersion = 12.5;
+					};
+					A5A87613266C002100D23585 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A5A875D9266BF75300D23585;
 					};
 				};
 			};
@@ -202,6 +256,7 @@
 			projectRoot = "";
 			targets = (
 				A5A875D9266BF75300D23585 /* TrouserBomb */,
+				A5A87613266C002100D23585 /* TrouserBombUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,6 +285,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5A87612266C002100D23585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -243,7 +305,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5A87610266C002100D23585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A87617266C002100D23585 /* TrouserBombUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A8761A266C002100D23585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A875D9266BF75300D23585 /* TrouserBomb */;
+			targetProxy = A5A87619266C002100D23585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A5A875E7266BF75500D23585 /* Debug */ = {
@@ -406,6 +484,46 @@
 			};
 			name = Release;
 		};
+		A5A8761C266C002100D23585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76BSGUF375;
+				INFOPLIST_FILE = TrouserBombUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dandbutton.TrouserBombUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrouserBomb.app/TrouserBomb";
+			};
+			name = Debug;
+		};
+		A5A8761D266C002100D23585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76BSGUF375;
+				INFOPLIST_FILE = TrouserBombUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dandbutton.TrouserBombUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrouserBomb.app/TrouserBomb";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -423,6 +541,15 @@
 			buildConfigurations = (
 				A5A875EA266BF75500D23585 /* Debug */,
 				A5A875EB266BF75500D23585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A8761B266C002100D23585 /* Build configuration list for PBXNativeTarget "TrouserBombUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A8761C266C002100D23585 /* Debug */,
+				A5A8761D266C002100D23585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
