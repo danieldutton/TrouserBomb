@@ -2,9 +2,10 @@
 import SwiftUI
 
 struct TrouserBombView: View {
+    var sandbox = SandBox()
     var body: some View {
         Button(action: {
-            
+            sandbox.fart()
         }, label: {
             Text("Random Ripper")
         })

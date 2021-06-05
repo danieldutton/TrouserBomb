@@ -2,35 +2,8 @@ import AVFoundation
 import Foundation
 
 class SandBox {
-    var farts: [URL] = []
     var audioPlayer: AVAudioPlayer?
-    
-    init() {
-        primeAndCacheFarts()
-    }
-    
-    fileprivate func primeAndCacheFarts() {
-        if farts.count > 0 {
-            return
-        }
-        for index in (0...8) {
-            extractedFunc(index)
-        }
-    }
-    
-    fileprivate func extractedFunc(_ index: Int) {
-        let path = Bundle.main.path(forResource: "fart_\(index).mp3", ofType: nil)
-        let fart = URL(fileURLWithPath: path!)
-        
-        farts.append(fart)
-    }
-    
-    func fart_sandbox() {
-        let fart = farts.randomElement()!
-        audioPlayer = try? AVAudioPlayer(contentsOf: fart)
-        audioPlayer?.play()
-    }
-    
+
     func fart() {
         do {
             let fart = brewFart()
