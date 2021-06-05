@@ -11,6 +11,20 @@
 		A5A875E0266BF75300D23585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A875DF266BF75300D23585 /* ContentView.swift */; };
 		A5A875E2266BF75500D23585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A875E1266BF75500D23585 /* Assets.xcassets */; };
 		A5A875E5266BF75500D23585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A875E4266BF75500D23585 /* Preview Assets.xcassets */; };
+		A5A875F4266BF80200D23585 /* _deactivate_toggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875EF266BF80200D23585 /* _deactivate_toggle.mp3 */; };
+		A5A875F5266BF80200D23585 /* _bomb_clang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875F0266BF80200D23585 /* _bomb_clang.mp3 */; };
+		A5A875F6266BF80200D23585 /* _swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875F1266BF80200D23585 /* _swoosh.mp3 */; };
+		A5A875F7266BF80200D23585 /* _countdown_beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875F2266BF80200D23585 /* _countdown_beep.mp3 */; };
+		A5A875F8266BF80200D23585 /* _bomb_blast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875F3266BF80200D23585 /* _bomb_blast.mp3 */; };
+		A5A87602266BF80B00D23585 /* fart_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875F9266BF80A00D23585 /* fart_0.mp3 */; };
+		A5A87603266BF80B00D23585 /* fart_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875FA266BF80A00D23585 /* fart_4.mp3 */; };
+		A5A87604266BF80B00D23585 /* fart_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875FB266BF80A00D23585 /* fart_3.mp3 */; };
+		A5A87605266BF80B00D23585 /* fart_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875FC266BF80A00D23585 /* fart_2.mp3 */; };
+		A5A87606266BF80B00D23585 /* fart_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875FD266BF80B00D23585 /* fart_7.mp3 */; };
+		A5A87607266BF80B00D23585 /* fart_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875FE266BF80B00D23585 /* fart_8.mp3 */; };
+		A5A87608266BF80B00D23585 /* fart_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875FF266BF80B00D23585 /* fart_6.mp3 */; };
+		A5A87609266BF80B00D23585 /* fart_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A87600266BF80B00D23585 /* fart_1.mp3 */; };
+		A5A8760A266BF80B00D23585 /* fart_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A87601266BF80B00D23585 /* fart_5.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +34,20 @@
 		A5A875E1266BF75500D23585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A875E4266BF75500D23585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5A875E6266BF75500D23585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A875EF266BF80200D23585 /* _deactivate_toggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = _deactivate_toggle.mp3; sourceTree = "<group>"; };
+		A5A875F0266BF80200D23585 /* _bomb_clang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = _bomb_clang.mp3; sourceTree = "<group>"; };
+		A5A875F1266BF80200D23585 /* _swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = _swoosh.mp3; sourceTree = "<group>"; };
+		A5A875F2266BF80200D23585 /* _countdown_beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = _countdown_beep.mp3; sourceTree = "<group>"; };
+		A5A875F3266BF80200D23585 /* _bomb_blast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = _bomb_blast.mp3; sourceTree = "<group>"; };
+		A5A875F9266BF80A00D23585 /* fart_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_0.mp3; sourceTree = "<group>"; };
+		A5A875FA266BF80A00D23585 /* fart_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_4.mp3; sourceTree = "<group>"; };
+		A5A875FB266BF80A00D23585 /* fart_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_3.mp3; sourceTree = "<group>"; };
+		A5A875FC266BF80A00D23585 /* fart_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_2.mp3; sourceTree = "<group>"; };
+		A5A875FD266BF80B00D23585 /* fart_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_7.mp3; sourceTree = "<group>"; };
+		A5A875FE266BF80B00D23585 /* fart_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_8.mp3; sourceTree = "<group>"; };
+		A5A875FF266BF80B00D23585 /* fart_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_6.mp3; sourceTree = "<group>"; };
+		A5A87600266BF80B00D23585 /* fart_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_1.mp3; sourceTree = "<group>"; };
+		A5A87601266BF80B00D23585 /* fart_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_5.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +80,7 @@
 		A5A875DC266BF75300D23585 /* TrouserBomb */ = {
 			isa = PBXGroup;
 			children = (
+				A5A875EC266BF7CE00D23585 /* AudioResources */,
 				A5A875DD266BF75300D23585 /* TrouserBombApp.swift */,
 				A5A875DF266BF75300D23585 /* ContentView.swift */,
 				A5A875E1266BF75500D23585 /* Assets.xcassets */,
@@ -67,6 +96,43 @@
 				A5A875E4266BF75500D23585 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5A875EC266BF7CE00D23585 /* AudioResources */ = {
+			isa = PBXGroup;
+			children = (
+				A5A875ED266BF7DF00D23585 /* App */,
+				A5A875EE266BF7F200D23585 /* Farts */,
+			);
+			path = AudioResources;
+			sourceTree = "<group>";
+		};
+		A5A875ED266BF7DF00D23585 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A5A875F3266BF80200D23585 /* _bomb_blast.mp3 */,
+				A5A875F0266BF80200D23585 /* _bomb_clang.mp3 */,
+				A5A875F2266BF80200D23585 /* _countdown_beep.mp3 */,
+				A5A875EF266BF80200D23585 /* _deactivate_toggle.mp3 */,
+				A5A875F1266BF80200D23585 /* _swoosh.mp3 */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A5A875EE266BF7F200D23585 /* Farts */ = {
+			isa = PBXGroup;
+			children = (
+				A5A875F9266BF80A00D23585 /* fart_0.mp3 */,
+				A5A87600266BF80B00D23585 /* fart_1.mp3 */,
+				A5A875FC266BF80A00D23585 /* fart_2.mp3 */,
+				A5A875FB266BF80A00D23585 /* fart_3.mp3 */,
+				A5A875FA266BF80A00D23585 /* fart_4.mp3 */,
+				A5A87601266BF80B00D23585 /* fart_5.mp3 */,
+				A5A875FF266BF80B00D23585 /* fart_6.mp3 */,
+				A5A875FD266BF80B00D23585 /* fart_7.mp3 */,
+				A5A875FE266BF80B00D23585 /* fart_8.mp3 */,
+			);
+			path = Farts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +192,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A87608266BF80B00D23585 /* fart_6.mp3 in Resources */,
+				A5A875F6266BF80200D23585 /* _swoosh.mp3 in Resources */,
+				A5A875F5266BF80200D23585 /* _bomb_clang.mp3 in Resources */,
+				A5A875F4266BF80200D23585 /* _deactivate_toggle.mp3 in Resources */,
 				A5A875E5266BF75500D23585 /* Preview Assets.xcassets in Resources */,
+				A5A87603266BF80B00D23585 /* fart_4.mp3 in Resources */,
+				A5A87602266BF80B00D23585 /* fart_0.mp3 in Resources */,
+				A5A87609266BF80B00D23585 /* fart_1.mp3 in Resources */,
+				A5A875F7266BF80200D23585 /* _countdown_beep.mp3 in Resources */,
+				A5A8760A266BF80B00D23585 /* fart_5.mp3 in Resources */,
+				A5A87606266BF80B00D23585 /* fart_7.mp3 in Resources */,
+				A5A87607266BF80B00D23585 /* fart_8.mp3 in Resources */,
+				A5A87604266BF80B00D23585 /* fart_3.mp3 in Resources */,
+				A5A875F8266BF80200D23585 /* _bomb_blast.mp3 in Resources */,
+				A5A87605266BF80B00D23585 /* fart_2.mp3 in Resources */,
 				A5A875E2266BF75500D23585 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
