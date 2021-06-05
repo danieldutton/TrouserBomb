@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A5A875DE266BF75300D23585 /* TrouserBombApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A875DD266BF75300D23585 /* TrouserBombApp.swift */; };
-		A5A875E0266BF75300D23585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A875DF266BF75300D23585 /* ContentView.swift */; };
 		A5A875E2266BF75500D23585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A875E1266BF75500D23585 /* Assets.xcassets */; };
 		A5A875E5266BF75500D23585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A875E4266BF75500D23585 /* Preview Assets.xcassets */; };
 		A5A875F4266BF80200D23585 /* _deactivate_toggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875EF266BF80200D23585 /* _deactivate_toggle.mp3 */; };
@@ -25,12 +24,14 @@
 		A5A87608266BF80B00D23585 /* fart_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A875FF266BF80B00D23585 /* fart_6.mp3 */; };
 		A5A87609266BF80B00D23585 /* fart_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A87600266BF80B00D23585 /* fart_1.mp3 */; };
 		A5A8760A266BF80B00D23585 /* fart_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A87601266BF80B00D23585 /* fart_5.mp3 */; };
+		A5A8760C266BF96300D23585 /* TrouserBombView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A875DF266BF75300D23585 /* TrouserBombView.swift */; };
+		A5A8760F266BFAC000D23585 /* Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8760E266BFAC000D23585 /* Sandbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5A875DA266BF75300D23585 /* TrouserBomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrouserBomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A875DD266BF75300D23585 /* TrouserBombApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrouserBombApp.swift; sourceTree = "<group>"; };
-		A5A875DF266BF75300D23585 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5A875DF266BF75300D23585 /* TrouserBombView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrouserBombView.swift; sourceTree = "<group>"; };
 		A5A875E1266BF75500D23585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A875E4266BF75500D23585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5A875E6266BF75500D23585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		A5A875FF266BF80B00D23585 /* fart_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_6.mp3; sourceTree = "<group>"; };
 		A5A87600266BF80B00D23585 /* fart_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_1.mp3; sourceTree = "<group>"; };
 		A5A87601266BF80B00D23585 /* fart_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart_5.mp3; sourceTree = "<group>"; };
+		A5A8760E266BFAC000D23585 /* Sandbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +82,10 @@
 		A5A875DC266BF75300D23585 /* TrouserBomb */ = {
 			isa = PBXGroup;
 			children = (
+				A5A8760B266BF91B00D23585 /* View */,
 				A5A875EC266BF7CE00D23585 /* AudioResources */,
+				A5A8760D266BFAA000D23585 /* Services */,
 				A5A875DD266BF75300D23585 /* TrouserBombApp.swift */,
-				A5A875DF266BF75300D23585 /* ContentView.swift */,
 				A5A875E1266BF75500D23585 /* Assets.xcassets */,
 				A5A875E6266BF75500D23585 /* Info.plist */,
 				A5A875E3266BF75500D23585 /* Preview Content */,
@@ -133,6 +136,22 @@
 				A5A875FE266BF80B00D23585 /* fart_8.mp3 */,
 			);
 			path = Farts;
+			sourceTree = "<group>";
+		};
+		A5A8760B266BF91B00D23585 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5A875DF266BF75300D23585 /* TrouserBombView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5A8760D266BFAA000D23585 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5A8760E266BFAC000D23585 /* Sandbox.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,8 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A875E0266BF75300D23585 /* ContentView.swift in Sources */,
 				A5A875DE266BF75300D23585 /* TrouserBombApp.swift in Sources */,
+				A5A8760F266BFAC000D23585 /* Sandbox.swift in Sources */,
+				A5A8760C266BF96300D23585 /* TrouserBombView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

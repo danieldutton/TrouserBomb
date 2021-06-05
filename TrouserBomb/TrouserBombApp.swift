@@ -11,7 +11,7 @@ import SwiftUI
 struct TrouserBombApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TrouserBombView()
         }
     }
 }
