@@ -7,6 +7,9 @@ struct TrouserBombView: View {
         NavigationView {
             ZStack {
                 Color("Blue_Background")
+                Image("Trousers")
+                    .resizable()
+                    .scaledToFit()
                 VStack {
                     Spacer()
                     Button(action: {
